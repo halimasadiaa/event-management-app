@@ -1,0 +1,142 @@
+/* General Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #fdfaf3;
+}
+
+/* Contact Info Container */
+.contact-info {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+/* Back Arrow */
+.back-button {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  text-decoration: none; /* Removes the underline */
+}
+
+.back-button button {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Profile Section */
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.profile-pic img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.profile-details {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.profile-details h1 {
+  font-size: 18px;
+  margin: 0;
+  color: #333;
+}
+
+.review-status {
+  font-size: 14px;
+  color: #888;
+}
+
+.followers {
+  font-size: 16px;
+  color: #888;
+}
+
+/* Action Buttons */
+.actions {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.actions button {
+  width: 50px;
+  height: 50px;
+  background-color: #f7dfd9;
+  border: none;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.actions img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Options List */
+.options {
+  margin-top: 20px;
+}
+
+.options button {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #f7dfd9;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.options button .icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.options button img {
+  width: 100%;
+  height: 100%;
+}
+
+.options button:hover {
+  background-color: #f4c6b9;
+}
+
+/* Add specific styles for the links (anchor tags) inside buttons */
+a {
+  text-decoration: none; /* Removes underline for links */
+  color: inherit; /* Keeps the color of the button text intact */
+}
+
+a button {
+  background-color: #f7dfd9;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}
+
+a button:hover {
+  background-color: #f4c6b9;
+}

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Reddit+Sans+Condensed&family=Roboto+Slab:wght@100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #CC8C8D; /* Matching pink background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 100px;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo {
+    position: relative;
+    padding-right: 30px;
+}
+
+.container img {
+    height: 300px;
+}
+
+.logo-text {
+    font-size: 80px;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.logo-decoration {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h2 {
+    font-family: "Reddit Sans Condensed", serif;
+}
+
+.flower {
+    width: 50px; /* Adjust to match the size of the flower */
+    height: auto;
+}
+
+.sign-in-text {
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    padding-top: -60px;
+    margin-bottom: 60px;
+    font-size: 50px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn {
+    background-color: #EACEC3;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;  /* Ensures buttons are the same width */
+    max-width: 300px; /* Max width to prevent buttons from being too wide */
+    margin: 0 auto; /* Center the buttons horizontally */
+}
+
+.btn:hover {
+    background-color: #F0D4D5;
+}
+
+button {
+    font-weight: bolder;
+    color: #D67C7D;
+}
+
+.customer {
+    font-weight: bold;
+}

@@ -1,0 +1,149 @@
+/* Global Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #faf3e8;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.notification-container {
+  width: 90%;
+  max-width: 400px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.notification {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #f0e6d2;
+  border-radius: 8px;
+  background-color: #fffaf1;
+}
+
+.user-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.notification-details {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.user-name {
+  font-weight: bold;
+  margin: 0;
+}
+
+.action-details {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 2px 0;
+}
+
+.time {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.accept-btn, .delete-btn, .view-btn {
+  font-size: 0.8rem;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.accept-btn {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.delete-btn {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.view-btn {
+  background-color: #cce5ff;
+  color: #004085;
+}
+
+.accept-btn:hover, .delete-btn:hover, .view-btn:hover {
+  opacity: 0.8;
+}
+
+/* Header Styling */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #faf3e8;
+  border-bottom: 1px solid #ddd;
+}
+
+.back-btn {
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Footer Styling */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-icon {
+  width: 30px;
+  height: 30px;
+  display: block;
+  text-align: center;
+}
+
+.nav-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-icon:hover {
+  opacity: 0.7;
+}

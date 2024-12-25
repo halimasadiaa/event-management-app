@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #F2F2F2; /* Light pink background color */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-container {
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2; /* Light pink background color */
+    border-radius: 20px; /* Added border-radius for soft corners */
+}
+
+/* Header Section */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.back-button {
+    cursor: pointer;
+}
+
+.back-button:before {
+    content: "<"; /* Back arrow symbol */
+    font-size: 24px;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.header-actions {
+    display: flex;
+}
+
+.header-actions img {
+    width: 24px;
+    height: 24px;
+    margin-left: 15px;
+}
+
+/* Chat Area */
+.chat-area {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.message {
+    display: flex;
+    align-items: flex-end;
+}
+
+.message.received {
+    justify-content: flex-start;
+}
+
+.message.sent {
+    justify-content: flex-end;
+}
+
+.avatar img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.bubble {
+    max-width: 70%;
+    padding: 10px 15px;
+    margin: 0 10px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+.message.received .bubble {
+    background-color: #F7C5B9; /* Light pink for received messages */
+    color: #fff;
+}
+
+.message.sent .bubble {
+    background-color: #D4E9F7; /* Light blue for sent messages */
+    color: #333;
+}
+
+/* Input Section */
+.input-section {
+    padding: 10px 20px;
+    border-top: 1px solid #E0E0E0;
+    background-color: #F7C5B9; /* Light pink background */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 5px 10px;
+    flex-grow: 1; /* Allow input box to take up available space */
+}
+
+.mic-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.input-box input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.attachment-icons {
+    display: flex;
+}
+
+.attachment-icons img {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}

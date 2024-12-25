@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e4de; /* Light pink background */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    background-color: #fff0eb; /* Light peach container */
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin: 0;
+    color: #4d3a38; /* Darker text color */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    color: #4d3a38;
+    font-weight: bold;
+  }
+  
+  select, textarea, button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #d9c1ba;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  select {
+    background-color: #f3e4de; /* Match background color */
+  }
+  
+  textarea {
+    background-color: #f3e4de; /* Match background color */
+  }
+  
+  select:focus, textarea:focus {
+    outline: none;
+    border-color: #a86f63; /* Highlighted border */
+  }
+  
+  button {
+    background-color: #a86f63;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #91584f;
+  }
+  
+  /* Footer Navigation Styles */
+  .footer {
+    margin-top: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-icon {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .nav-icon img {
+    display: block;
+    margin: auto;
+  }
+  
+  .nav-icon:focus {
+    outline: none;
+    transform: scale(1.1); /* Slightly enlarges the icon on focus */
+  }
+  .back-button {
+    text-decoration: none;
+    font-size: 14px;
+    color: #a86f63;
+    font-weight: bold;
+  }
+  

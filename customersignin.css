@@ -1,0 +1,134 @@
+body{
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: #d8a6a1; /* Pastel pink background */
+font-family: 'Arial', sans-serif;
+}
+
+.container {
+text-align: center;
+width: 100%;
+max-width: 400px;
+}
+
+.logo {
+margin-bottom: -30px;
+}
+.logo img{
+    height: 150px;
+    
+
+}
+.circle {
+position: relative;
+width: 100px;
+height: 100px;
+margin: 0 auto;
+border: 2px solid white;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.logo-text {
+font-size: 40px;
+font-weight: bold;
+color: #FFFFFF;
+}
+
+.floral-decoration {
+position: absolute;
+top: -10px;
+left: 5px;
+}
+
+.flower {
+width: 50px;
+height: auto;
+}
+
+.title {
+font-size: 60px;
+font-weight: bold;
+color: white;
+margin-bottom: 40px;
+}
+
+.signup-form {
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+
+.input-field {
+width: 100%;
+padding: 10px;
+font-size: 16px;
+border: none;
+border-radius: 10px;
+background-color: #f3d5d1;
+}
+
+.signup-button {
+width: 100%;
+padding: 12px;
+font-size: 16px;
+font-weight: bold;
+background-color: #805b56;
+color: white;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+.signup-button:hover {
+background-color: #6b4945;
+}
+
+.login-link {
+margin-top: 10px;
+font-size: 14px;
+color: white;
+}
+
+.login-link a {
+color: white;
+text-decoration: underline;
+}
+
+.continue-google {
+display: inline-flex;
+align-items: center;
+margin-top: 10px;
+}
+
+.continue-google img {
+width: 18px;
+height: 18px;
+margin-left: 5px;
+}
+.signup-button {
+    display: inline-block; /* Makes it behave like a button */
+    text-align: center; /* Centers text inside */
+    width: 100%; /* Stretches the button across the container */
+    padding: 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #833740;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Removes underline from the link */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-button:hover {
+    background-color: #b05860;
+  }
+  

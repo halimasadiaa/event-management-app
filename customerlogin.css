@@ -1,0 +1,114 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #d89ba2; /* Matches the background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #f5c2c7; /* Slightly lighter pink for contrast */
+  width: 100%;
+  max-width: 400px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Section */
+.logo {
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.logo h1 {
+  font-size: 2.5rem;
+  color: #833740;
+  font-family: 'Cursive', sans-serif; /* For elegant logo text */
+  margin-bottom: 5px;
+}
+
+.logo span {
+  font-size: 1rem;
+  color: #833740;
+}
+
+/* Form Section */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #833740;
+  border-radius: 5px;
+  background-color: #fdf5f6;
+  color: #333;
+}
+
+.form-group input::placeholder {
+  color: #c49599; /* Placeholder text color */
+}
+
+/* Button */
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #833740;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #b05860;
+}
+
+/* Signup Link */
+.signup-link {
+  margin-top: 15px;
+  display: block;
+  font-size: 0.9rem;
+  color: #833740;
+  text-decoration: none;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
+.login-btn {
+  display: inline-block; /* Makes it behave like a button */
+  text-align: center; /* Centers text inside */
+  width: 100%; /* Stretches the button across the container */
+  padding: 10px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #833740;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none; /* Removes underline from the link */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #b05860;
+}
